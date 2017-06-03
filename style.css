@@ -1,7 +1,8 @@
 h1{
     font-family: Swis721 LtCn BT;
     padding-left: 12px;
-    padding-top: 15px;
+    padding-top: 10px;
+    position: fixed
 }
 
 ul {
@@ -9,7 +10,7 @@ ul {
     margin: 0;
     padding-left: 12px;
     width: 90px;
-    padding-top: 22px;
+    padding-top: 135px;
     position:fixed;
 }
 
@@ -23,6 +24,7 @@ li a {
 
 
 li a:hover {text-decoration: underline;}
+li a:selected {text-decoration: line-through;}
 
 .popup{display: none;}
 
@@ -31,7 +33,7 @@ a.ss:hover + img{
     position: fixed;
     bottom: -30px;
     right: -15px;
-    width: 1800px;
+    width: 1850px;
     z-index: -1;
 }
 a.force:hover + img{
@@ -39,7 +41,7 @@ a.force:hover + img{
     position: fixed;
     bottom: 0px;
     right: 0px;
-    width: 1650px;
+    width: 1850px;
     z-index: -1;
 }
 a.unity:hover + img{
@@ -56,13 +58,14 @@ a.int:hover + img{
     bottom: 15px;
     right: 45px;  
     z-index: -1;
+    width: 2500px;
 }
 a.photo:hover + img{
     display: block;
     position: fixed;
     right: 100px;
     bottom: 0px;
-    width: 2000px;
+    width: 2150px;
     z-index: -1;    
 }
 a.misc:hover + img{
@@ -70,25 +73,135 @@ a.misc:hover + img{
     position: fixed;
     bottom: 40px;
     right: 35px;
-    width: 2100px;
+    width: 2400px;
     z-index: -1;
 }
 
 p1{
     font-family: Swis721 LtCn BT;
     line-height: 170%;
-    position: fixed;
+    position: absolute;
     margin: 0;
-    padding-top: 22px;
-    padding-left: 175px;
+    padding-top: 135px;
+    padding-left: 186px;
 }  
 
 p2{
     font-family: Swis721 LtCn BT;
     line-height: 170%;
-    position: fixed;
+    position: absolute;
     margin: 0;
-    padding-top: 92px;
-    padding-left: 175px;
+    padding-top: 208px;
+    padding-left: 186px;
+    color: black;
 }  
 
+p3{
+    font-family: Swis721 LtCn BT;
+    line-height: 170%;
+    position: absolute;
+    margin: 0;
+    padding-top: 948px;
+    padding-left: 186px;    
+}
+
+p4{
+    font-family: Swis721 LtCn BT;
+    line-height: 170%;
+    position: absolute;
+    margin: 0;
+    padding-top: 1440px;
+    padding-left: 186px;    
+}
+
+p5{
+    font-family: Swis721 LtCn BT;
+    line-height: 170%;
+    position: absolute;
+    margin: 0;
+    padding-top: 2094px;
+    padding-left: 186px;      
+}
+
+p6{
+    font-family: Swis721 LtCn BT;
+    line-height: 170%;
+    position: absolute;
+    margin: 0;
+    padding-top: 2600px;
+    padding-left: 186px;      
+}
+
+.email{
+    color: black;
+}
+
+.resume{
+        color: black;
+}
+
+.force_1{
+    position: absolute;
+    left: 195px;
+    top: 359px;
+}
+
+.force_study_1{
+    position: absolute;
+    left: 195px;
+    top: 920px;
+    z-index: -1;
+}
+
+.force_drafted_1{
+    position: absolute;
+    left: 195px;
+    top: 1540px;
+}
+
+.force_study_2{
+    position: absolute;
+    left: 100px;
+    top: 2100px;
+    z-index: -1;
+}
+
+.force_2{
+    position: absolute;
+    left: 195px;
+    top: 2710px;
+    margin-bottom: 62px;
+}
+
+.ss_section_1{
+    position: absolute;
+    left: 195px;
+    top: 359px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.selected{
+    text-decoration:line-through;
+}
