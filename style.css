@@ -58,7 +58,7 @@ a.int:hover + img{
     bottom: 15px;
     right: 45px;  
     z-index: -1;
-    width: 2500px;
+    width: 2200px;
 }
 a.photo:hover + img{
     display: block;
@@ -73,7 +73,7 @@ a.misc:hover + img{
     position: fixed;
     bottom: 40px;
     right: 35px;
-    width: 2400px;
+    width: 2100px;
     z-index: -1;
 }
 
